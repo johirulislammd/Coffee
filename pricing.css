@@ -1,0 +1,127 @@
+body{
+	background: #fff000;
+}
+section{
+	justify-content: center;
+	align-items: center;
+	margin-left: 70px;
+
+}
+section h1{
+	text-align: center;
+	color: #000;
+	
+}
+section .image{
+	display: inline-flex;
+	padding: 50px;
+	background: rgba(0, 0, 0, 0.5);
+	margin-bottom: 5px;
+	border-radius: 15px;
+	transition: ease 0.5s;
+
+}
+section .image:hover{
+	transition-timing-function: ease-in-out0.5s;
+	background: rgba(0, 0, 0, 0.2);
+	animation-name: image;
+	animation-duration: 1s;
+	animation-timing-function: 1s;
+}
+.image img{
+	border-radius: 20px;
+	
+}
+.image span{
+	position: absolute;
+	color: #ffbf00;
+
+}
+.image .span1{
+	position: absolute;
+	left: 235px;
+	bottom: 45px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #000;
+}
+.image .span2{
+	position: absolute;
+	font-size: 40px;
+	font-weight: bolder;
+	left: 16em;
+	bottom: 45px;
+	color: #f0f3ff;
+}
+.image .span3{
+	position: absolute;
+	right: 250px;
+	bottom: 45px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #000;
+}
+.image .span4{
+	position: absolute;
+	left: 235px;
+	top: 28em;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #000;
+
+}
+.image .span5{
+	position: absolute;
+	left: 16em;
+	top: 28em;
+	color: #000;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.image .span6{
+	position: absolute;
+	right: 250px;
+	top: 28em;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #000;
+}
+.image .span7{
+	position: absolute;
+	left: 235px;
+	top: 42em;
+	color: #000;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.image .span8{
+	position: absolute;
+	left: 16em;
+	top: 42em;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #000;
+}
+.image .span9{
+	position: absolute;
+	right: 220px;
+	top: 42em;
+	color: #000;
+	font-size: 40px;
+	font-weight: bolder;
+}
+::-webkit-scrollbar{
+	width: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background: red;
+}
+@keyframes image{
+	from{
+		margin-left: 20px;
+		animation-timing-function: ease-in-out 1s;
+	}
+	to{
+		margin-left: 0;
+	}
+}

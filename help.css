@@ -1,0 +1,79 @@
+body{
+	background: #fbff0038;
+	min-height: 90vh;
+}
+.help .logo{
+	width: 150px;
+	display: block;
+	color: greenyellow;
+	font-style: italic;
+	font-size: 35px;
+	cursor: pointer;
+	font-family: fantasy;
+	font-weight: 500;
+}
+.help .logo span{
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	border-top-left-radius: 20px;
+}
+.help h1{
+	width: 100px;
+	margin-left: 600px;
+	text-align: center;
+	cursor: pointer;
+	color: greenyellow;
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	transition: ease 0.5s;
+}
+.help h1:hover{
+	letter-spacing: 4px;
+	transition-timing-function: ease-in-out 0.5s;
+}
+.help b{
+	color: #000;
+}
+.image{
+	display: inline-block;
+}
+.image img{
+	display: inline-flex;
+	position: relative;
+	margin-top: 90px;
+	margin-left: 40px;
+	padding: 40px;
+	flex-wrap: wrap;
+	transition: ease 0.5s;
+
+}
+.image img:hover{
+	transform: scale(1.20);
+	transition-timing-function: ease-in-out 0.5s;
+    border-radius: 20px;
+}
+.image span{
+	position: absolute;
+	width: 200px;
+
+}
+.image .span1{
+	position: absolute;
+	left: 90px;
+	bottom: 20px;
+}
+.image .span2{
+	position: absolute;
+	left: 420px;
+	bottom: 30px;
+}
+.image .span3{
+	position: absolute;
+	right: 430px;
+	bottom: 3px;
+}
+.image .span4{
+	position: absolute;
+	right: 100px;
+	bottom: 7px;
+}
